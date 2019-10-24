@@ -32,20 +32,20 @@ const Tooltip = ({
       <Text testID="stepDescription" style={styles.tooltipText}>{currentStep.text}</Text>
     </View>
     <View style={[styles.bottomBar]}>
-      {
+      {/* {
         !isLastStep ?
           <TouchableOpacity onPress={handleStop}>
             <Button>{labels.skip || 'Skip'}</Button>
           </TouchableOpacity>
           : null
-      }
-      {
+      } */}
+      {/* {
         !isFirstStep ?
           <TouchableOpacity onPress={handlePrev}>
             <Button>{labels.previous || 'Previous'}</Button>
           </TouchableOpacity>
           : null
-      }
+      } */}
       {
         !isLastStep ?
           <TouchableOpacity onPress={handleNext}>
